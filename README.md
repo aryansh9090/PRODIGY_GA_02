@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stable Diffusion Image Generator
 
 This is a simple Python script that uses the Hugging Face `diffusers` library to generate images from text prompts using Stable Diffusion.
@@ -78,3 +79,6 @@ Here are some sample images generated using the script and prompts:
 ![Sample 2](static/images/samples/sample_output_2.png)
 
 ![Sample 3](static/images/samples/sample_output_3.png)
+=======
+# PRODIGY_GA_02
+>>>>>>> 1c3680485874da68d2bf8c3f43c04918467ad003
