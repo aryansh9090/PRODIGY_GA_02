@@ -74,11 +74,14 @@ display(image)
 
 Here are some sample images generated using the script and prompts:
 
-![Sample 1](static/images/samples/sample_output_1.png)
+![Sample 1] <img width="512" height="512" alt="download (1)" src="https://github.com/user-attachments/assets/7fa86e44-c789-4806-8067-2f13adcabde5" />
 
-![Sample 2](static/images/samples/sample_output_2.png)
 
-![Sample 3](static/images/samples/sample_output_3.png)
+![Sample 2] <img width="512" height="512" alt="download (2)" src="https://github.com/user-attachments/assets/57bb1c13-eb8c-47d1-87ac-f4f9a9f4c043" />
+
+
+![Sample 3] <img width="512" height="512" alt="download (3)" src="https://github.com/user-attachments/assets/e03842bd-c6d5-43dc-964f-7247d4e2b1d4" />
+
 =======
 # PRODIGY_GA_02
 >>>>>>> 1c3680485874da68d2bf8c3f43c04918467ad003
