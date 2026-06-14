@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <canvas id="particle-canvas"></canvas>
+    <div class="background-gradient"></div>
+    
+    <div class="container">
+        <header>
+            <h1 class="glitch-text" data-text="AI Image Generator">AI Image Generator</h1>
+            <p>Bring your imagination to life using Stable Diffusion</p>
+        </header>
+
+        <main>
+            <div class="glass-card input-section">
+                <div class="input-group">
+                    <textarea id="prompt-input" placeholder="Describe the image you want to generate... (e.g., A futuristic cyberpunk city at neon-lit sunset)"></textarea>
+                    <button id="generate-btn">
+                        <span class="btn-text">Generate Image</span>
+                        <div class="loader hidden"></div>
+                    </button>
+                </div>
+                <div id="error-message" class="hidden"></div>
+            </div>
+
+            <div class="glass-card result-section">
+                <div class="image-wrapper" id="image-container">
+                    <div class="placeholder">
+                        <div class="placeholder-icon">✨</div>
+                        <p>Your creation will appear here</p>
+                    </div>
+                    <img id="generated-image" class="hidden" alt="Generated AI Artwork" />
+                </div>
+                <div class="action-buttons hidden" id="action-buttons">
+                    <a id="download-btn" class="secondary-btn" download="ai_artwork.png">Download</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/js/particles.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+.log
+
+# VS Code
+.vscode/
+
+# Model Caches and Checkpoints
+checkpoints/
+models/
+.cache/
+.huggingface/
+huggingface/
